@@ -1038,24 +1038,20 @@ video {
   padding-left: 2rem;
 }
 
-.pt-16 {
-  padding-top: 4rem;
+.pt-32 {
+  padding-top: 8rem;
 }
 
 .pb-32 {
   padding-bottom: 8rem;
 }
 
-.pt-52 {
-  padding-top: 13rem;
+.pt-36 {
+  padding-top: 9rem;
 }
 
 .pb-60 {
   padding-bottom: 15rem;
-}
-
-.pt-36 {
-  padding-top: 9rem;
 }
 
 .pb-16 {
@@ -1072,22 +1068,6 @@ video {
 
 .pt-10 {
   padding-top: 2.5rem;
-}
-
-.pt-28 {
-  padding-top: 7rem;
-}
-
-.pt-20 {
-  padding-top: 5rem;
-}
-
-.pt-32 {
-  padding-top: 8rem;
-}
-
-.pt-40 {
-  padding-top: 10rem;
 }
 
 .text-center {
@@ -1230,12 +1210,6 @@ video {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.transition-all {
-  transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
